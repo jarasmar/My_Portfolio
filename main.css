@@ -517,4 +517,50 @@ input[type="submit"]:hover {
 
 
 /* Start Footer */
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #113334;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.copyright p {
+  font-size: 1.4rem;
+}
+
+.up {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #eee;
+  top: -2.5rem;
+  right: 5rem; 
+  border-radius: 100%;
+  display: flex;
+  /* assign the animation created below */
+  animation: pulse 2s infinite;
+}
+
+.up i {
+  color: #113334;
+  font-size: 2rem;
+  margin: auto;
+}
 /* End Footer */
+
+
+
+/* Start Animation for pulsing up button */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(32, 178, 170, 0.99);
+  }
+  70% {
+    box-shadow: 0 0 0 2rem rgba(32, 178, 170, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(32, 178, 170, 0);
+  }
+}
+/* End Animation */
