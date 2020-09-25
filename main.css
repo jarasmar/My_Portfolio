@@ -271,7 +271,7 @@ li {
 }
 
 /* .social-media i:hover {
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, paleGreen, lightSeaGreen);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }  */
@@ -297,7 +297,51 @@ li {
 
 
 /* Start Skills-Experience-Interests (grids) */
+.my-experience,
+.my-skills,
+.my-interests {  
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+  text-align: center;
+}
 
+.experience,
+.skill,
+.interest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.experience h1,
+.skill h1,
+.interest h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem -2px 2rem 0;
+}
+
+.icon-container {
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid #eee;
+  /* background-color: lightSeaGreen; */
+  background: linear-gradient(-45deg, paleGreen, lightSeaGreen);
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+
+.icon-container i {
+  color: #eee;
+  font-size: 5rem;
+  margin: auto;
+  transform: rotate(-45deg);
+}
 /* End Skills-Experience-Interests (grids) */
 
 
