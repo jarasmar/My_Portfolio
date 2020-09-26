@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Photoshoot';
+  src: url('fonts/photoshoot-webfont.woff2') format('woff2'),
+       url('fonts/photoshoot-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -134,9 +142,9 @@ li {
 }
 
 .nav-link {
-  font-family: 'The Historia Demo', sans-serif;
-  font-size: 3.5rem;
-  padding: 1rem;
+  font-family: 'Photoshoot', sans-serif;
+  font-size: 2.5rem;
+  padding: 2rem 1rem;
 }
 
 .nav-link:hover,
@@ -144,6 +152,7 @@ li {
   background: linear-gradient(to top, paleGreen, lightSeaGreen);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 2rem 1rem;
 }
 
 /* Nav Open-Close Animation (JQuery) */
@@ -214,12 +223,12 @@ li {
 }
 
 .landing-text h1 {
-  font-size: 15rem;
-  font-family: "The Historia Demo", sans-serif;
+  font-size: 10rem;
+  font-family: "Photoshoot", sans-serif;
   background: linear-gradient(to top, paleGreen, lightSeaGreen);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 1rem;
+  padding: 8rem;
   user-select: none;
 }
 
@@ -598,7 +607,7 @@ input[type="submit"]:hover {
   }
 
   .landing-text h1 {
-    font-size: 13rem;
+    font-size: 8rem;
   }
 
   .landing-text h6 {
@@ -610,11 +619,11 @@ input[type="submit"]:hover {
   }
 
   li {
-    margin: .5rem 0;
+    margin: 1rem 0;
   }
 
   .nav-link {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .about-heading h1 {
@@ -666,7 +675,7 @@ input[type="submit"]:hover {
   }
 
   .landing-text h1{
-    font-size: 9rem;
+    font-size: 6rem;
   }
 
   .landing-text h6 {
@@ -674,7 +683,7 @@ input[type="submit"]:hover {
   }
 
   .nav-link {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 
   .about .container {
