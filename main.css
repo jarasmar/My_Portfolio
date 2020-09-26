@@ -130,12 +130,12 @@ header {
 }
 
 li {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 
 .nav-link {
   font-family: 'The Historia Demo', sans-serif;
-  font-size: 5rem;
+  font-size: 3.5rem;
   padding: 1rem;
 }
 
@@ -263,6 +263,7 @@ li {
 
 .about-details {
   flex: 1;
+  text-align: center;
 }
 
 .social-media {
@@ -326,6 +327,10 @@ li {
   text-transform: uppercase;
   font-weight: 300;
   opacity: .3;
+}
+
+.portfolio-description p {
+  text-align: justify;
 }
 
 .portfolio-description .cta {
