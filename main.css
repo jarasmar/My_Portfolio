@@ -288,15 +288,17 @@ li {
 .social-media i {
   font-size: 5rem;
   transition: color 650ms;
+  opacity: .3;
 }
 
-/* .social-media i:hover {
+.social-media i:hover {
   background: linear-gradient(to top, #56B896, #2E7A71);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}  */
+  opacity: 1;
+} 
 
-.fa-github-square:hover {
+/* .fa-github-square:hover {
   color: black;
 }
 
@@ -304,9 +306,9 @@ li {
   color: #0072b1;
 }
 
-.fa-envelope:hover {
+.fa-envelope-square:hover {
   color: #D44638;
-}
+} */
 /* End About */
 
 
@@ -416,9 +418,10 @@ li {
 .icon-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid #eee;
+  /* border: 3px solid #eee; */
   /* background-color: #2E7A71; */
   background: linear-gradient(-45deg, #56B896, #2E7A71);
+  border-radius: 5px;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
@@ -429,6 +432,7 @@ li {
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);
+  opacity: .7;
 }
 /* End Skills-Experience-Interests (grids) */
 
