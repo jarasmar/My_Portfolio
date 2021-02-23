@@ -3,12 +3,14 @@ $(document).ready(function () {
   $(".menu-toggler").on("click", function () {
     $(this).toggleClass("open");
     $(".top-nav").toggleClass("open");
+    $(".nav-list").toggleClass('hidden');
   });
 
   // Remove class open when clicking on a nav link
   $(".top-nav .nav-link").on("click", function () {
     $(".menu-toggler").removeClass("open");
     $(".top-nav").removeClass("open");
+    $(".nav-list").addClass('hidden');
   });
 
   // Select all links with a # and animate with smooth scrolling
