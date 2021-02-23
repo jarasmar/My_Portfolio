@@ -32,6 +32,7 @@ body {
   height: 100%;
   background: url("images/Background-1.jpg") no-repeat center fixed;
   background-size: cover;
+  background-color: #1b4142;
 }
 
 section {
@@ -85,7 +86,8 @@ img {
   bottom: -.5rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, .75);
+  background-color: #95B0B1
+  ;
 }
 
 .section-heading h1::before {
@@ -501,7 +503,7 @@ li {
   content: "";
   box-shadow: 0 0 0 4px #56B896;
   border-radius: 100%;
-  left: -8rem;
+  left: -7.5rem;
   height: 1.5rem;
   width: 1.5rem;
   background-color: #113334;
